@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ book.title }}</title>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+<body>
+    <div class="bo">
+        <div class="logo">
+            <img src="{%static 'img/logo.png'%}" alt="logo" height="70px">
+            <h1>Milisa Library</h1>
+        </div>
+        <div class="nav">
+            <li>
+                <a href="http://127.0.0.1:8000/home/"><ol>Home</ol></a>
+                <ul>||</ul>
+                <a href="http://127.0.0.1:8000/book/"><ol>  Books</ol></a>
+                <ul>||</ul>
+                <a href="http://127.0.0.1:8000/account"><ol>  Account</ol></a>
+            </li>
+        </div>
+    <div class="mycard">
+        <h1>{{ book.title }}</h1>
+        <p>Author: {{ book.author }}</p>
+        <p>Genre: {{ book.genre }}</p>
+        <p>Publication Date: {{ book.publication_date }}</p>
+        <p>ISBN: {{ book.isbn }}</p>
+        <a href="{% url 'book' %}">Back to catalog</a>
+    </div>
+    <footer>
+        <hr>
+        <p>@milisa 2024</p>
+    </footer>
+</body>
+</html>

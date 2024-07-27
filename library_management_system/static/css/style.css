@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: "Acme", sans-serif;
+    }
+    
+    body{
+        height: inherit;
+        overflow-x:hidden ;
+    }
+/*---------Register and login -------------------------*/
+    .reg{
+        width: 50%;
+        height: 100%;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        margin-left: 10%;
+        margin: auto;
+        margin-top: 5%;
+        display: block;
+        padding: 30px;
+        background-color: #eff0f3;
+        color: #0d0d0d;
+        border-radius: 20px;
+    }
+    .reg h1{
+        color: #0d0d0d;
+        font-size: 50px;
+        text-align: center;
+       
+    }
+    .reg form{
+        display:block;
+        margin: auto;
+    }
+    .reg input{
+        display: block;
+        width: 90%;
+        padding: 10px;
+        font-size: medium;
+        background-color: transparent;
+        border: 2px solid ;
+        border-radius:10px ;
+        margin-bottom: 15px;
+        color:#0d0d0d;
+
+    }
+    .reg button{
+        display: block;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        padding: 10px;
+        background-color: #ff8e3c;
+        border: none;
+        font-weight: 600;
+        color: #fffffe;
+        border-radius:10px ;
+        cursor: pointer;
+    }
+ /*--------------------end------------------------*/  
+ /********home***************************/
+  .bod{
+    background-color: #eff0f3;
+    height: 100vh;
+  } 
+  .logo{
+    display: flex;
+    justify-content: center;
+  }
+  .logo img{
+    margin-top:10px ;
+  }
+  .logo h1{
+    margin-top: 30px;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+  }
+  .nav li{
+    display: flex;
+    margin: 40px;
+  }
+  .nav ul{
+    font-size: 25px;
+    margin-left: 15px;
+  }
+  .nav a{
+    text-decoration: none;
+    margin-left:15px ;
+    color: #0d0d0d;
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  .nav a:hover{
+    color: #ff8e3c;
+  }
+  .quote{
+    display: flex;
+    margin-left: 50px;
+    
+  }
+  .quote .par{
+    width: 50%;
+    color: #2a2a2a;
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .quote button{
+    padding: 10px;
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: #ff8e3c;
+    color: #0d0d0d;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .quote .img{
+    width: 50%;
+    
+  }
+  .content{
+    text-align: center;
+    margin: 50px;
+    height: 90vh;
+  }
+  .content h2{
+    font-size: 50px;
+    margin: 10px;
+  }
+  .heading p{
+    font-size: 20px;
+    color: #2a2a2a;
+    text-wrap: wrap;
+    
+    text-align: center;
+  }
+  .contents{
+    display: flex;
+    margin: 50px;
+    text-align: center;
+   
+  }
+  .contents .imp{
+    width: 50%;
+    background-color: #eff0f3;
+    margin: 10px;
+    padding: 50px;
+    text-align: left;
+  }
+  .contents h3{
+    font-size: 30px;
+    margin: 20px;
+  }
+  .contents p{
+    margin-top: 20px;
+    color: #2a2a2a;
+    font-size: 15px;
+  }
+  .contents li{
+    color: #2a2a2a;
+    font-size: 15px;
+  }
+  footer {
+    
+    color: #2a2a2a;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/****************end************************/
+/**********************book*****************/
+.bo{
+  height: 100vh;
+}
+.mycard {
+ 
+  background: linear-gradient(to right, #ff8e3c, #ff8e3c); 
+  background-size: 100% 120px;
+  background-repeat: no-repeat;
+  margin: 30px auto;
+  width:50%;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23); 
+  padding: 20px;
+}
+.mycard h1 {
+  text-align: center;
+  color:#ffffff;
+  margin:20px 0 60px 0;
+}
+.mycard ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.mycard li {
+  
+  background: linear-gradient(to right, #ff8e3c, #ff8e3c); 
+  background-size: 50px 60px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  transition: transform .25s;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+  padding: 15px;
+  padding-left: 70px;
+  margin-top: 5px;
+}
+.mycard li:hover {
+  transform: scale(1.1);
+}
+.mycard a:link, .mycard a:visited {
+  color: #ff8e3c; 
+}
+.mycard p {
+  margin: 10px;
+}
+/***********************************************************/
+/*************************account***************************/
+.profile{
+ 
+  background: linear-gradient(to right, #ff8e3c, #ff8e3c); 
+  background-size: 100% 120px;
+  background-repeat: no-repeat;
+  margin: 30px auto;
+  width:50%;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23); 
+  padding: 20px;
+}
+.profile h2 {
+  text-align: center;
+  color:#ffffff;
+  font-size: 50px;
+  margin:20px 0 60px 0;
+}
+.profile p {
+  
+  background: linear-gradient(to right, #ff8e3c, #ff8e3c); 
+  background-size: 50px 60px;
+  background-repeat: no-repeat;
+  transition: transform .25s;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+  padding: 15px;
+  padding-left: 70px;
+  margin-top: 5px;
+}
+.profile span{
+  margin: 50px;
+  
+}
+
+@media (max-width:899px) {
+  .quote{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .profile span {
+    margin: 5px;
+  }
+  .quote .par{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  .quote .img{
+    width: 60%;
+    margin-left: 50px;
+  }
+  .content{
+    height: auto;
+  }
+  .content h2{
+    font-size: 30px;
+  }
+  .content p{
+    font-size: 10px;
+  }
+  .contents{
+    margin: 10px;
+  }
+  .contents h3{
+    font-size: 20px;
+  }
+  .contents li{
+    font-size: 10px;
+  }
+}
+@media (max-width:499px) {
+  .nav li {
+    display: flex;
+    margin: 20px;
+}
+  .quote{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .quote .par{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .quote .img{
+    width: 60%;
+    margin-left: 50px;
+  }
+  .content{
+    margin-top: 70px;
+    height: auto;
+  }
+  .content h2{
+   
+    font-size: 20px;
+  }
+  .content p{
+    font-size: 10px;
+  }
+  .contents{
+    margin: 10px;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  }
+  .contents .imp{
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+  }
+  .contents h3{
+    font-size: 20px;
+  }
+  .contents li{
+    font-size: 10px;
+  }
+  .mycard {
+    margin: 30px ;
+    width: 80%;
+    padding: 10px;
+}
+.mycard h1 {
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0 60px 0;
+}
+.profile {
+  margin: 30px ;
+  width: 80%;
+  padding: 10px;
+}
+.profile span {
+  margin: 5px;
+}
+.profile p {
+  background: linear-gradient(to right, #ff8e3c, #ff8e3c);
+  background-size: 50px 60px;
+  background-repeat: no-repeat;
+  transition: transform .25s;
+  border-radius: 5px;
+  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);
+  padding: 15px;
+  padding-left: 70px;
+  margin-top: 5px;
+}
+}
+
+        
+

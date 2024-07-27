@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'css/style.css'%}">
+</head>
+
+
+<body>
+    <div class="reg">
+        <h1>Register</h1>
+
+        <form action = "" method= "POST">
+            {% csrf_token %} 
+            <label for="username">Username</label>
+            <input type="text" placeholder="Enter Your Username" id="username" name="username" required>
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Your Email Id" id="email" name="email" required>
+            <label for="password1">Password</label>
+            <input type="password" placeholder="Create a Password" id="password1" name="password1" required>
+            <label for="password2">Create Password</label>
+            <input type="password" placeholder="Confirm Password" name="password2" id="password2" required>
+            <button type="submit">Register</button>
+            <p>Already have an account?<a href="http://127.0.0.1:8000/login/">Click Here</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
